@@ -24,7 +24,7 @@
 
 - [x] Login/Register dengan validasi form (nama, NIM, password)
 - [x] Daftar Mata Kuliah dengan FlatList + dummy data JSON
-- [x] Detail matkul: deskripsi, jadwal, ruang, materi
+- [x] Detail matkul: deskripsi, jadwal, ruang, daftar materi
 - [x] Checklist progress belajar per materi (tersimpan di AsyncStorage)
 - [x] Upload foto tugas via expo-image-picker (galeri dan kamera)
 - [x] Data persisten dengan AsyncStorage (user session + progress + tugas)
@@ -39,7 +39,7 @@
 
 | Layer | Teknologi |
 |-------|-----------|
-| Framework | React Native + Expo SDK 52 |
+| Framework | React Native + Expo SDK 54 |
 | Navigation | React Navigation v7 (Native Stack + Bottom Tab) |
 | Storage | @react-native-async-storage/async-storage |
 | Device | expo-image-picker (kamera + galeri) |
@@ -50,7 +50,7 @@
 ## Cara Menjalankan
 
 ```bash
-git clone https://github.com/username/studyunpri.git
+git clone https://github.com/zuanpratama85-dotcom/studyunpri.git
 cd studyunpri
 npm install
 npx expo start
@@ -62,13 +62,13 @@ Scan QR Code dengan Expo Go di HP.
 
 ## Download APK
 
-[Download APK terbaru](LINK_APK_GITHUB_RELEASE_ATAU_DRIVE)
+[Download APK terbaru](https://expo.dev/artifacts/eas/tattPju4BVbnNkkrnvGX_DvSg02oo6Dy8MlzFGmiWkE.apk)
 
 ---
 
 ## Expo Snack
 
-[Buka di Expo Snack](LINK_EXPO_SNACK)
+[Buka di Expo Snack](https://snack.expo.dev/@pratamuy/studyunpri)
 
 ---
 

@@ -12,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#1E3A5F"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.zuanpratama.studyunpri"
@@ -22,11 +24,22 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#1E3A5F"
       },
-      "package": "com.zuanpratama.studyunpri"
+      "package": "com.zuanpratama.studyunpri",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/icon.png"
     },
-    "plugins": ["expo-image-picker"]
+    "plugins": [
+      "expo-image-picker"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8db98e9f-85f4-4891-bd41-9ebd74466cb3"
+      }
+    },
+    "owner": "pratamuy"
   }
 }
