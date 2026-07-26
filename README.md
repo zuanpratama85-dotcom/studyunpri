@@ -68,7 +68,7 @@ Scan QR Code dengan Expo Go di HP.
 
 ## Expo Snack
 
-[Buka di Expo Snack](https://snack.expo.dev/@pratamuy/studyunpri)
+[Buka di Expo Snack](https://snack.expo.dev/@pratamuy/studyunpris)
 
 ---
 
